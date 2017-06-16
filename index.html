@@ -15,11 +15,42 @@
 <body>
     <div class="blog-masthead">
         <div class="container">
-            <nav class="blog-nav">
-                <a class="blog-nav-item active" href="#">首页</a>
-                <a class="blog-nav-item" href="#">技术分享<img src="icon/drop.png" alt="drop"></a>
-                <a class="blog-nav-item" href="#">文章原创<img src="icon/drop.png" alt="drop"></a>
-                <a class="blog-nav-item" href="#">关于<img src="icon/drop.png" alt="drop"></a>
+            <nav class="blog-nav" >
+                <ul class = "nav-ul" style="list-style: none">
+                <li id="homepage"><a class="blog-nav-item active" href="#">首页</a></li>
+                <li class="dropdown">
+                    <a class="blog-nav-item dropdown-toggle" href="#">技术分享<img src="icon/drop.png" alt="drop"></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">CSS</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="blog-nav-item" href="#">文章原创<img src="icon/drop.png" alt="drop"></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">CSS</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                        <a  class="blog-nav-item" href="#">其他<img src="icon/drop.png" alt="drop"></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">生活鸡汤</a></li>
+                            <li><a href="#">萌娃成长</a></li>
+                            <li><a href="#">父母之席</a></li>
+                        </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="blog-nav-item" href="#">关于<img src="icon/drop.png" alt="drop"></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">博主简介</a></li>
+                        <li><a href="#">博主文章</a></li>
+                    </ul>
+                </li>
+
+                </ul>
             </nav>
         </div>
     </div>
@@ -31,7 +62,7 @@
             </div>
             <div class="col-sm-3 col-sm-offset-1  blog-sidebar">
                 <div class="blog-header-sidebar">
-                    <h4>赞<img src="icon/heart2.png" alt="heart"><span id="count"></span></h4>
+                    <h4>赞<img  id = "heart" src="icon/heart2.png" alt="heart"><span id="count"></span></h4>
                     <p><a href="#">留言</a></p>
                 </div>
             </div>
@@ -93,8 +124,10 @@
 
         </div>
     </div>
-
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+
 </body>
 </html>
