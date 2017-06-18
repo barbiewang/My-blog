@@ -58,12 +58,18 @@
         <div class="row">
             <div class="blog-header col-sm-8">
                 <h1 class="blog-header-title">王晓娟<img src="icon/heart1.png" alt="heart">博客&驿站</h1>
-                <p class="blog-header-description">一个从文科转向web前端技术的女技术员的个人博客网站</p>
+                <p class="blog-header-description">一个从文科转向web前端技术的女程序猿的个人博客网站</p>
             </div>
             <div class="col-sm-3 col-sm-offset-1  blog-sidebar">
                 <div class="blog-header-sidebar">
                     <h4>赞<img  id = "heart" src="icon/heart2.png" alt="heart"><span id="count"></span></h4>
-                    <p><a href="#">留言</a></p>
+                    <div>
+                        <a id="comment" href="#">留言</a>
+                        <div class="commentArea">
+                           <textarea class="textArea" title="comment" placeholder="不多于50个字"></textarea>
+                           <input class="submit" type="button" value="提交">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

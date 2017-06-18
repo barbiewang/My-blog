@@ -137,6 +137,12 @@ h6, .h6 {
 .nav-ul>li{
     float:left;
 }
+/*.submit{*/
+    /*display:none;*/
+/*}*/
+.commentArea{
+    display:none;
+}
 
 
 

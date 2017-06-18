@@ -5,10 +5,6 @@
 //     }
 // });
  var ViewModel = {
-     init:function(){
-         zanNum();
-         showDropdown();
-     },
     zanNum : function(){
         var count = $("#count"),
             num = 0,
@@ -27,16 +23,35 @@
         for(var i=0;i<len;i++){
             $(dropdowns[i]).attr("index",i);
             $(dropdowns[i]).click(function(){
-                console.log("a");
                 var j = $(this).attr("index");
                 $(dropdownMenus[j]).toggle();
         })
         }
+    },
+    showTextArea : function(){
+       var comment = $("#comment");
+        comment.click(function(){
+            $(".commentArea").toggle();
 
-
+        })
+    },
+    submitEnable: function() {
+        $(".textArea").keyup(function () {
+            var value = $(this).val();
+            if (value.length > 50 || value.length <= 0) {
+                $(".submit").attr("disabled", "true");
+            }
+            else {
+                $(".submit").removeAttr("disabled");
+            }
+        })
+    },
+    init : function(){
+        this.zanNum();
+        this.submitEnable();
+        this.showTextArea();
+        this.showDropdown()
     }
 
 };
-ViewModel.zanNum();
-ViewModel.showDropdown();
-
+ViewModel.init();
