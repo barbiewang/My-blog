@@ -11,8 +11,14 @@
             heart = $("#heart");
         heart.click(function(){
             num += 1;
-            count.text(num);
-            heart.attr("src","icon/heart.png");
+            if(num % 2 === 1){
+                count.text(num % 2);
+                heart.attr("src","icon/heart.png");
+            }
+            else{
+                count.text("");
+                heart.attr("src","icon/heart2.png");
+            }
 
         });
     },
