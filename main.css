@@ -143,6 +143,9 @@ h6, .h6 {
 .commentArea{
     display:none;
 }
-
+pre{
+    height:200px;
+    overflow: auto;
+}
 
 
