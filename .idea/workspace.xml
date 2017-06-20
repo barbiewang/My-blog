@@ -26,8 +26,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+            <state relative-caret-position="278">
+              <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fizz_Buzz.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Fizz_Buzz.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/original/JS/Fizz_Buzz.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="134" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="178" selection-end-column="7" />
+            <state relative-caret-position="342">
+              <caret line="146" column="45" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -60,11 +60,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Two_sum.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/original/JS/Two_sum.html">
+      <file leaf-file-name="Reshape_the_Matrix.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/JS/Reshape_the_Matrix.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="111" column="89" selection-start-line="111" selection-start-column="89" selection-end-line="111" selection-end-column="89" />
+              <caret line="133" column="69" selection-start-line="133" selection-start-column="69" selection-end-line="133" selection-end-column="69" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Two_sum.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/JS/Two_sum.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="119" column="66" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -111,12 +123,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/original/JS/Reshape_the_Matrix.html" />
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/original/JS/jsindex.html" />
-        <option value="$PROJECT_DIR$/original/JS/Fizz_Buzz.html" />
         <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/original/JS/Reshape_the_Matrix.html" />
         <option value="$PROJECT_DIR$/original/JS/Two_sum.html" />
+        <option value="$PROJECT_DIR$/original/JS/Fizz_Buzz.html" />
       </list>
     </option>
   </component>
@@ -236,12 +248,12 @@
       <updated>1497419863928</updated>
       <workItem from="1497419866039" duration="24921000" />
       <workItem from="1497595918498" duration="19029000" />
-      <workItem from="1497686528300" duration="28899000" />
+      <workItem from="1497686528300" duration="30482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72849000" />
+    <option name="totallyTimeSpent" value="74432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -414,16 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/JS/Reshape_the_Matrix.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
@@ -435,30 +437,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/JS/Fizz_Buzz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="134" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="178" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+        <state relative-caret-position="278">
+          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/JS/Two_sum.html">
+    <entry file="file://$PROJECT_DIR$/original/JS/Reshape_the_Matrix.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="111" column="89" selection-start-line="111" selection-start-column="89" selection-end-line="111" selection-end-column="89" />
+          <caret line="133" column="69" selection-start-line="133" selection-start-column="69" selection-end-line="133" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/JS/Two_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="119" column="66" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/JS/Fizz_Buzz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="146" column="45" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
