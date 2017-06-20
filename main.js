@@ -31,7 +31,7 @@
             $(dropdowns[i]).click(function(){
                 var j = $(this).attr("index");
                 $(dropdownMenus[j]).toggle();
-        })
+            });
         }
     },
     showTextArea : function(){
