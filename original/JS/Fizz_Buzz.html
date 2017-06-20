@@ -30,7 +30,7 @@
                     <a class="blog-nav-item  active" href="#">文章原创<img src="../../icon/drop.png" alt="drop"></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">HTML</a></li>
-                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="jsindex.html">JavaScript</a></li>
                         <li><a href="#">CSS</a></li>
                     </ul>
                 </li>
@@ -75,11 +75,63 @@
     </div>
     <div class="row">
         <div class="col-sm-8 blog-main">
-            <ol class="blog-post JS-blogs-list">
-                <!--<li><a class="blog-header-title-brief JS-blogs-title" href="Reshape_the_Matrix.html">Reshape the Matrix</a>-->
-                    <!--<span class="blog-post-meta JS-blogs-signature"><time>June 19,2017</time> by <a href="#">JaneWang</a></span>-->
-                <!--</li>-->
-            </ol>
+            <div class="blog-post">
+                <h2 class="blog-post-title">Fizz Buzz</h2>
+                <p class="blog-post-meta"><time>June 20,2017</time> by <a href="#">JaneWang</a></p>
+                <h4>Description</h4>
+                <p>Write a program that outputs the string representation of numbers from 1 to n.
+                    But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.</p>
+                <h4>Example :</h4>
+                <pre><code>
+n = 15,
+Return:
+[
+    "1",
+    "2",
+    "Fizz",
+    "4",
+    "Buzz",
+    "Fizz",
+    "7",
+    "8",
+    "Fizz",
+    "Buzz",
+    "11",
+    "Fizz",
+    "13",
+    "14",
+    "FizzBuzz"
+]
+                </code></pre>
+                <h5><strong>我的解决方案：</strong></h5>
+                <pre><code>
+var fizzBuzz = function(n) {
+    var arr = [];
+    for(let i = 1;i<= n;i++){
+        if(i%15 ===0){
+            arr.push("FizzBuzz");
+        }
+        else {
+            if(i%3 === 0){
+                arr.push("Fizz");
+            }
+            else if(i%5===0){
+                arr.push("Buzz");
+             }
+            else{
+                arr.push(""+i);
+            }
+        }
+     }
+    return arr;
+};
+                </code></pre>
+                <hr>
+                <p>See the <a target="_blank" href="https://leetcode.com/problems/reshape-the-matrix/#/description">original website</a></p>
+            </div>
+            <div class="blog-post">
+
+            </div>
             <nav>
                 <ul class="pager">
                     <li><a href="#">top</a></li>

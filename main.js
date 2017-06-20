@@ -4,6 +4,11 @@
 //         num:ZanNum
 //     }
 // });
+ var Model = {
+    href : ["Reshape_the_Matrix.html","Fizz_Buzz.html"],
+    title: ["Reshape the Matrix","Fizz Buzz"],
+     time:["June 19,2017","June 20,2017"]
+ };
  var ViewModel = {
     zanNum : function(){
         var count = $("#count"),
@@ -52,11 +57,24 @@
             }
         })
     },
+     jsBlogList:function(){
+         var liArr = Model.title;
+         for(var i = 0;i<liArr.length;i++){
+             // var a = document.createElement("a");
+             // a.setAttribute("class","blog-header-title-brief JS-blogs-title");
+             // a.setAttribute("href",Model.href[i]);
+             // a.innerText = ""
+             $(".JS-blogs-list").append("<li><a class='blog-header-title-brief JS-blogs-title' href="
+                 + Model.href[i] + ">" + Model.title[i]+"</a><span class='blog-post-meta JS-blogs-signature'><time>"
+                 + Model.time[i]+"</time> by <a href='#'>JaneWang</a></span></li>");
+         }
+     },
     init : function(){
         this.zanNum();
         this.submitEnable();
         this.showTextArea();
         this.showDropdown()
+        this.jsBlogList();
     }
 
 };
