@@ -48,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fizz_Buzz.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fizz_Buzz.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/original/JS/Fizz_Buzz.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="858">
               <caret line="146" column="45" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Two_sum.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Two_sum.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/original/JS/Two_sum.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="119" column="66" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
+            <state relative-caret-position="269">
+              <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -127,8 +127,8 @@
         <option value="$PROJECT_DIR$/original/JS/jsindex.html" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/original/JS/Reshape_the_Matrix.html" />
-        <option value="$PROJECT_DIR$/original/JS/Two_sum.html" />
         <option value="$PROJECT_DIR$/original/JS/Fizz_Buzz.html" />
+        <option value="$PROJECT_DIR$/original/JS/Two_sum.html" />
       </list>
     </option>
   </component>
@@ -248,12 +248,12 @@
       <updated>1497419863928</updated>
       <workItem from="1497419866039" duration="24921000" />
       <workItem from="1497595918498" duration="19029000" />
-      <workItem from="1497686528300" duration="30482000" />
+      <workItem from="1497686528300" duration="31260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74432000" />
+    <option name="totallyTimeSpent" value="75210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -457,20 +457,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/JS/Two_sum.html">
+    <entry file="file://$PROJECT_DIR$/original/JS/Fizz_Buzz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="119" column="66" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
+        <state relative-caret-position="858">
+          <caret line="146" column="45" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/original/JS/Fizz_Buzz.html">
+    <entry file="file://$PROJECT_DIR$/original/JS/Two_sum.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="146" column="45" selection-start-line="146" selection-start-column="45" selection-end-line="146" selection-end-column="45" />
+        <state relative-caret-position="269">
+          <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
