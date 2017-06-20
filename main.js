@@ -5,9 +5,9 @@
 //     }
 // });
  var Model = {
-    href : ["Reshape_the_Matrix.html","Fizz_Buzz.html"],
-    title: ["Reshape the Matrix","Fizz Buzz"],
-     time:["June 19,2017","June 20,2017"]
+    href : ["Reshape_the_Matrix.html","Fizz_Buzz.html","Two_sum.html"],
+    title: ["Reshape the Matrix","Fizz Buzz","Two Sum"],
+     time:["June 19,2017","June 20,2017","June 20,2017"]
  };
  var ViewModel = {
     zanNum : function(){

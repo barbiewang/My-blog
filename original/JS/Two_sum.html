@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王晓娟的个人博客，一个从文科转向web前端技术的女技术员的个人博客网站</title>
+    <meta name="author" content="JaneWang">
+    <meta name="keywords" content="Jane's blog,个人博客，JaneWang">
+    <meta name="description" content="JaneWang的个人博客，一个从文科转向web前端技术的女技术员的个人博客网站">
+    <!--Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom styles for this blog,template from bootstrap  -->
+    <link rel="stylesheet" href="../../main.css">
+</head>
+<body>
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav" >
+            <ul class = "nav-ul" style="list-style: none">
+                <li id="homepage"><a class="blog-nav-item" href="../../index.html">首页</a></li>
+                <li class="dropdown">
+                    <a class="blog-nav-item dropdown-toggle" href="#">技术分享<img src="../../icon/drop.png" alt="drop"></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">CSS</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="blog-nav-item  active" href="#">文章原创<img src="../../icon/drop.png" alt="drop"></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="jsindex.html">JavaScript</a></li>
+                        <li><a href="#">CSS</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a  class="blog-nav-item" href="#">其他<img src="../../icon/drop.png" alt="drop"></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">生活鸡汤</a></li>
+                        <li><a href="#">萌娃成长</a></li>
+                        <li><a href="#">父母之席</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="blog-nav-item" href="#">关于<img src="../../icon/drop.png" alt="drop"></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">博主简介</a></li>
+                        <li><a href="#">博主文章</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="blog-header col-sm-8">
+            <h1 class="blog-header-title">王晓娟<img src="../../icon/heart1.png" alt="heart">博客&驿站</h1>
+            <p class="blog-header-description">一个从文科转向web前端技术的女程序猿的个人博客网站</p>
+        </div>
+        <div class="col-sm-3 col-sm-offset-1  blog-sidebar">
+            <div class="blog-header-sidebar">
+                <h4>赞<img  id = "heart" src="../../icon/heart2.png" alt="heart"><span id="count"></span></h4>
+                <div>
+                    <a id="comment" href="#">留言</a>
+                    <div class="commentArea">
+                        <textarea class="textArea" title="comment" placeholder="不多于50个字"></textarea>
+                        <input class="submit" type="button" value="提交">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8 blog-main">
+            <div class="blog-post">
+                <h2 class="blog-post-title">Two Sum</h2>
+                <p class="blog-post-meta"><time>June 20,2017</time> by <a href="#">JaneWang</a></p>
+                <h4>Description</h4>
+                <p>Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+                    You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>
+                <h4>Example :</h4>
+                <pre><code>
+Given nums = [2, 7, 11, 15], target = 9,
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
+                </code></pre>
+                <h5><strong>我的解决方案：</strong></h5>
+                <pre><code>
+var twoSum = function(nums, target) {
+    var len = nums.length;
+    var arr =[];
+    for(var i = 0;i<len;i++){
+        var a = target - nums[i];
+        var b =nums.indexOf(a);
+        if(b !== -1 && b !== i){
+            if(b < i){
+               arr.push(b,i);
+            }
+            else{
+               arr.push(i,b);
+            }
+            break;
+        }
+    }
+    return arr;
+};
+                </code></pre>
+                <hr>
+                <p>See the <a target="_blank" href="https://leetcode.com/problems/two-sum/#/description">original website</a></p>
+            </div>
+            <div class="blog-post">
+
+            </div>
+            <nav>
+                <ul class="pager">
+                    <li><a href="#">top</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>About</h4>
+                <li><a href="#">博主简介</a></li>
+                <li><a href="#">博主文章</a></li>
+            </div>
+            <div class="sidebar-module">
+                <h4>Archives</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#">2017年6月</a></li>
+                    <li><a href="#">2017年7月</a></li>
+                    <li><a href="#">2017年8月</a></li>
+                    <li><a href="#">2017年9月</a></li>
+                    <li><a href="#">2017年10月</a></li>
+                    <li><a href="#">2017年11月</a></li>
+                    <li><a href="#">2017年12月</a></li>
+                    <li><a href="#">2018年1月</a></li>
+                    <li><a href="#">2018年2月</a></li>
+                </ol>
+            </div>
+            <div class="sidebar-module">
+                <h4>Follow me</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Wechat</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="../../main.js"></script>
+
+</body>
+</html>
