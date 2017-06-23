@@ -31,11 +31,18 @@
         var dropdowns = $(".dropdown"),
             dropdownMenus = $(".dropdown-menu"),
             len = dropdowns.length;
+
         for(var i=0;i<len;i++){
             $(dropdowns[i]).attr("index",i);
             $(dropdowns[i]).click(function(){
-                var j = $(this).attr("index");
-                $(dropdownMenus[j]).toggle();
+                var target = $(this).attr("index");
+                for (var j = 0; j < len; j ++) {
+                    if (target == j) {
+                        $(dropdownMenus[j]).toggle();
+                    } else {
+                        $(dropdownMenus[j]).hide();
+                    }
+                }
             });
         }
     },
@@ -73,7 +80,7 @@
         this.zanNum();
         this.submitEnable();
         this.showTextArea();
-        this.showDropdown()
+        this.showDropdown();
         this.jsBlogList();
     }
 
