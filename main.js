@@ -31,7 +31,6 @@
         var dropdowns = $(".dropdown"),
             dropdownMenus = $(".dropdown-menu"),
             len = dropdowns.length;
-
         for(var i=0;i<len;i++){
             $(dropdowns[i]).attr("index",i);
             $(dropdowns[i]).click(function(){

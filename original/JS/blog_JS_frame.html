@@ -67,6 +67,8 @@
                     <a id="comment" href="#">留言</a>
                     <div class="commentArea">
                         <textarea class="textArea" title="comment" placeholder="不多于50个字"></textarea>
+                        <label>您的大名：<input id="comment-name" type="text"></label>
+                        <label>Email:<input id="comment-email" type="text"></label>
                         <input class="submit" type="button" value="提交">
                     </div>
                 </div>
@@ -76,67 +78,23 @@
     <div class="row">
         <div class="col-sm-8 blog-main">
             <div class="blog-post">
-                <h2 class="blog-post-title" id="blog_title">Fizz Buzz</h2>
-                <p class="blog-post-meta" ><time id="blog_time">June 20,2017</time> by <a href="#">JaneWang</a></p>
+                <h2 class="blog-post-title" id="blog_title"></h2>
+                <p class="blog-post-meta" ><time id="blog_time"></time> by <a href="#">JaneWang</a></p>
+                <div id = "blog_js_content"></div>
                 <h4>Description</h4>
-                <p id="blog_description">Write a program that outputs the string representation of numbers from 1 to n.
-                    But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.</p>
+                <p id="blog_description"></p>
                 <h4>Example :</h4>
-                <pre id="blog_jscode_example"><code>
-n = 15,
-Return:
-[
-    "1",
-    "2",
-    "Fizz",
-    "4",
-    "Buzz",
-    "Fizz",
-    "7",
-    "8",
-    "Fizz",
-    "Buzz",
-    "11",
-    "Fizz",
-    "13",
-    "14",
-    "FizzBuzz"
-]
-                </code></pre>
+                <pre id="blog_jscode_example"><code></code></pre>
                 <h5><strong>我的解决方案：</strong></h5>
-                <pre id="blog_jscode_solution"><code>
-var fizzBuzz = function(n) {
-    var arr = [];
-    for(let i = 1;i<= n;i++){
-        if(i%15 ===0){
-            arr.push("FizzBuzz");
-        }
-        else {
-            if(i%3 === 0){
-                arr.push("Fizz");
-            }
-            else if(i%5===0){
-                arr.push("Buzz");
-             }
-            else{
-                arr.push(""+i);
-            }
-        }
-     }
-    return arr;
-};
-                </code></pre>
+                <pre><code id="blog_jscode_solution"></code></pre>
                 <hr>
-                <p>See the <a  id = "blog_original_url" target="_blank" href="https://leetcode.com/problems/fizz-buzz/#/description">original website</a></p>
-            </div>
-            <div class="blog-post">
-
+                <p>See the <a  id = "blog_original_url" target="_blank" href="">original website</a></p>
             </div>
             <nav>
                 <ul class="pager">
                     <li><a href="#">top</a></li>
-                    <li><a id="lastJSArticle" href="Reshape_the_Matrix.html">上一篇</a></li>
-                    <li><a id="nextJSArticle" href="Two_sum.html">下一篇</a></li>
+                    <li><a id="lastJSArticle" href="">上一篇</a></li>
+                    <li><a id="nextJSArticle" href="">下一篇</a></li>
                 </ul>
             </nav>
         </div>

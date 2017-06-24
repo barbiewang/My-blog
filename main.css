@@ -143,6 +143,12 @@ h6, .h6 {
 .commentArea{
     display:none;
 }
+.textArea{
+    width:100%;
+}
+#comment-email,#comment-name{
+    width:100%;
+}
 pre{
     /*height:500px;*/
     overflow: auto;
